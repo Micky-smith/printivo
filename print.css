@@ -1,5 +1,8 @@
 *{
     margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+    scroll-behavior: smooth;
    
 }
 .nav{
@@ -166,13 +169,9 @@
     
  }
  .search button{
-     /* border-radius: 4px;
-    border: 1px solid #e8e8e8 ; */
     border: none;
     background: none; 
     font-size: 30px;
-    /* cursor: pointer;
-    padding-right: 20px; */
  }
  .abso{
     border: 1px solid  #e8e8e8;
@@ -200,8 +199,8 @@
     height: 1250px;
 }
 .child{
-    border: 1px solid black;
-    box-shadow: 2px 2px 2px;
+    border: 1px solid white;
+     box-shadow: 0 3px 10px #ccc;
     overflow: hidden;
 }
 .child img{
@@ -250,13 +249,6 @@
 
 }
 
-.mother{
-    display: grid;
-    grid-template-columns: repeat(3,280px);
-    grid-template-rows: repeat(1,400px);
-    gap: 30px;
-}
-
 .ded{
     display: flex;
     border: 1px solid white;
@@ -270,17 +262,11 @@
     height: 460px;
     gap: 30px;
     width: 100%;
-    margin-left: 30px;
+    margin-left: 50px;
 }
-/* .mother{
-    border: 1px solid black;
-    height: 400px;
-    box-shadow: 1px 1px 1px;
-    overflow: hidden;
-     */
 .child2{
-     border: 1px solid black;
-    box-shadow: 2px 2px 2px;
+     border: 1px solid white;
+     box-shadow: 0 3px 10px #ccc;
     overflow: hidden;
     height: 400px;
 
